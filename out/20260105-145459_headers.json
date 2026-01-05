@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://example.com",
+    "headers": {},
+    "missing": [
+      {
+        "header": "Strict-Transport-Security",
+        "severity": "HIGH",
+        "desc": "HSTS header missing"
+      },
+      {
+        "header": "X-Content-Type-Options",
+        "severity": "MEDIUM",
+        "desc": "MIME sniffing protection missing"
+      },
+      {
+        "header": "X-Frame-Options",
+        "severity": "MEDIUM",
+        "desc": "Clickjacking protection missing"
+      },
+      {
+        "header": "X-XSS-Protection",
+        "severity": "LOW",
+        "desc": "XSS protection header missing"
+      },
+      {
+        "header": "Content-Security-Policy",
+        "severity": "HIGH",
+        "desc": "CSP header missing"
+      },
+      {
+        "header": "Referrer-Policy",
+        "severity": "LOW",
+        "desc": "Referrer policy not set"
+      },
+      {
+        "header": "Permissions-Policy",
+        "severity": "LOW",
+        "desc": "Permissions policy not set"
+      }
+    ],
+    "score": 0.0,
+    "status_code": 200,
+    "server": "cloudflare",
+    "powered_by": ""
+  }
+]

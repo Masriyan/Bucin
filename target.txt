@@ -1,0 +1,10 @@
+write your target list here
+
+target1.com
+target2.com
+.....
+.....
+
+
+
+EOF
