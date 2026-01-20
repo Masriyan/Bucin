@@ -21,3 +21,5 @@ python-whois>=0.8.0
 
 # Optional - Screenshots
 # playwright>=1.40.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
